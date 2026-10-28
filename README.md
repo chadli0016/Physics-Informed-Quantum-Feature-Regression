@@ -241,9 +241,12 @@ R_y(v)=\begin{bmatrix}\cos(v/2)&-\sin(v/2)\\\sin(v/2)&\cos(v/2)\end{bmatrix},
 $$
 
 $$
-|\psi_\theta(x)\rangle=\operatorname{CNOT}(R_y(p)\otimes R_y(q))|00\rangle.
+\lvert \psi_\theta(x) \rangle
+=
+\mathrm{CNOT}
+\left(R_y(p)\otimes R_y(q)\right)
+\lvert 00 \rangle.
 $$
-
 With CNOT control qubit 0 and target qubit 1, in basis 00,01,10,11, this becomes
 
 $$
