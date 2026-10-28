@@ -441,10 +441,11 @@ Readout and circuit parameters are updated alternately. For each candidate physi
 
 Metrics are calculated on all eligible test points:
 
-$$
-\operatorname{RMSE}=\sqrt{\frac1N\sum_k(\hat y_k-y_k)^2},\qquad
-\operatorname{MAE}=\frac1N\sum_k|\hat y_k-y_k|,
-$$
+```math
+\mathrm{RMSE}=\sqrt{\frac{1}{N}\sum_k(\hat y_k-y_k)^2},
+\qquad
+\mathrm{MAE}=\frac{1}{N}\sum_k\lvert\hat y_k-y_k\rvert.
+```
 
 $$
 R^2=1-\frac{\sum_k(\hat y_k-y_k)^2}{\sum_k(y_k-\bar y)^2}.
