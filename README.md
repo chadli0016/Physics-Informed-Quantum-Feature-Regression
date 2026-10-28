@@ -387,9 +387,14 @@ Here e_j is a coordinate unit vector; b is the circuit-loss gradient, not the ph
 
 The Fubini–Study metric is
 
-$$
-g_{ij}=\operatorname{Re}[\langle\partial_i\psi|\partial_j\psi\rangle-\langle\partial_i\psi|\psi\rangle\langle\psi|\partial_j\psi\rangle].
-$$
+```math
+g_{ij}=\mathrm{Re}\left[
+\langle\partial_i\psi\mid\partial_j\psi\rangle
+-
+\langle\partial_i\psi\mid\psi\rangle
+\langle\psi\mid\partial_j\psi\rangle
+\right].
+```
 
 For the one-qubit state r(p)=[cos(p/2),sin(p/2)]^T, its angle derivative is [-sin(p/2),cos(p/2)]^T/2. This derivative has squared norm 1/4 and zero overlap with r. As dp/dtheta_0=x and dq/dtheta_1=x, each diagonal metric entry is x^2/4. The product-state cross terms vanish, and the parameter-independent CNOT preserves inner products. Thus
 
